@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="rippleStrokeWidth">2dp</dimen>
+    <dimen name="rippleRadiusX">63dp</dimen>
+    <dimen name="rippleRadiusY">21dp</dimen>
+</resources>

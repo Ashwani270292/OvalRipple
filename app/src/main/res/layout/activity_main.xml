@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mutatioapps.ovalrippleeffect.MainActivity">
+
+    <com.mutatioapps.ovalrippleeffect.OvalRipple
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/content"
+        app:rb_color="#0099CC"
+        app:rb_x_radius="30dp"
+        app:rb_y_radius="10dp"
+        app:rb_rippleAmount="3"
+        app:rb_duration="3000"
+        app:rb_scale="6"
+        >
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:id="@+id/center_image"
+            android:layout_centerInParent="true"
+            android:translationY="-22dp"
+            android:tint="@android:color/holo_red_dark"
+            android:src="@drawable/location"/>
+
+    </com.mutatioapps.ovalrippleeffect.OvalRipple>
+
+</RelativeLayout>
